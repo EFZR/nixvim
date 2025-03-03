@@ -10,7 +10,7 @@
     rose-pine.enable = true;
   };
 
-  colorscheme = "ayu";
+  colorscheme = "gruvbox";
 
   opts = {
     # Line numbers
