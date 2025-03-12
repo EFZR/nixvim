@@ -31,7 +31,6 @@
     # Tab and indentation defaults
     tabstop = 2;
     shiftwidth = 2;
-    expandtab = true;
     smarttab = true;
     ## softtabstop = 0;
 
