@@ -12,7 +12,7 @@
           enable = !config.plugins.lsp.servers.nixd.enable;
           settings = {
             formatting = {
-              command = [ "${lib.getExe pkgs.nixfmt-classic}" ];
+              command = [ "${lib.getExe pkgs.nixfmt-rfc-style}" ];
             };
             nix = {
               flake = {
