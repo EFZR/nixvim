@@ -2,7 +2,7 @@
 {
   plugins = {
     typescript-tools = {
-      enable = true;
+      enable = false;
 
       lazyLoad.settings.ft = [
         "typescript"
