@@ -6,6 +6,9 @@
   ];
 
   plugins = {
+    lsp-lines = {
+      enable = true;
+    };
     lsp = {
       enable = true;
       inlayHints = true;
