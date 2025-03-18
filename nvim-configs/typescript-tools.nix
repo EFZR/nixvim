@@ -24,6 +24,9 @@
           tsserver_locale = "en";
           tsserver_max_memory = "auto";
           tsserver_path = "${pkgs.typescript}/lib/node_modules/typescript/lib/tsserver.js";
+          tsserver_plugins = [
+            "@vue/typescript-plugin"
+          ];
           jsx_close_tag = {
             enable = false;
             filetypes = [
