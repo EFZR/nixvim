@@ -24,6 +24,7 @@
         html
         css
         http
+        vue
       ];
 
       settings = {
