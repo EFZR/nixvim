@@ -46,6 +46,7 @@
         tailwindcss.enable = true;
         ts_ls.enable = !config.plugins.typescript-tools.enable;
         volar.enable = !config.plugins.typescript-tools.enable;
+        yamlls.enable = true;
       };
     };
   };
