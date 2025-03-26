@@ -77,23 +77,5 @@
         desc = "Clear search highlights.";
       };
     }
-
-    # New line
-    {
-      mode = "n";
-      key = "<CR>";
-      action = "m`o<Esc>``";
-      options = {
-        desc = "Create a new line below the current line and return to Normal mode.";
-      };
-    }
-    {
-      mode = "n";
-      key = "<S-CR>";
-      action = "m`O<Esc>``";
-      options = {
-        desc = "Create a new line above the current line and return to Normal mode.";
-      };
-    }
   ];
 }
