@@ -13,6 +13,7 @@
           markdownlint.enable = true;
           eslint_d.enable = true;
           nixpkgs_fmt.enable = true;
+          gofmt.enable = true;
         };
         completion = {
           luasnip.enable = true;

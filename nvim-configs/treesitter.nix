@@ -25,6 +25,7 @@
         css
         http
         vue
+        go
       ];
 
       settings = {
