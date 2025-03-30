@@ -14,6 +14,7 @@
           eslint_d.enable = true;
           nixpkgs_fmt.enable = true;
           gofmt.enable = true;
+          sql_formatter.enable = true;
         };
         completion = {
           luasnip.enable = true;
