@@ -73,6 +73,8 @@ in
     dap-virtual-text = {
       enable = true;
     };
+
+    dap-go.enable = true;
   };
 
   keymaps = [
