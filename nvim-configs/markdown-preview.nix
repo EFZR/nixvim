@@ -22,7 +22,7 @@
       };
     };
 
-    render-markdown = {
+    markview = {
       enable = true;
     };
   };
