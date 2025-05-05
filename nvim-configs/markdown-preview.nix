@@ -22,7 +22,7 @@
       };
     };
 
-    headlines = {
+    render-markdown = {
       enable = true;
     };
   };
