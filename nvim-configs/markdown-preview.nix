@@ -21,5 +21,9 @@
         theme = "dark";
       };
     };
+
+    headlines = {
+      enable = true;
+    };
   };
 }
