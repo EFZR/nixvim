@@ -15,6 +15,9 @@ let
             return vim.g.dotnet_select_project()
         end
       '';
+      env = {
+        ASPNETCORE_ENVIRONMENT.__raw = ''function() return "Developement" end '';
+      };
       stopOnEntry = false;
     }
     {
