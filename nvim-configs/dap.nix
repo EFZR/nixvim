@@ -16,7 +16,7 @@ let
         end
       '';
       env = {
-        ASPNETCORE_ENVIRONMENT.__raw = ''function() return "Developement" end '';
+        ASPNETCORE_ENVIRONMENT.__raw = ''function() return "Development" end '';
       };
       stopOnEntry = false;
     }
