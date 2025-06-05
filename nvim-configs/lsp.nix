@@ -9,6 +9,7 @@
     lsp-lines = {
       enable = true;
     };
+
     lsp = {
       enable = true;
       inlayHints = true;
@@ -48,6 +49,20 @@
         volar.enable = !config.plugins.typescript-tools.enable;
         yamlls.enable = true;
         gopls.enable = true;
+        emmet_ls = {
+          enable = true;
+          filetypes = [
+            "html"
+            "css"
+            "scss"
+            "javascript"
+            "javascriptreact"
+            "typescript"
+            "typescriptreact"
+            "svelte"
+            "vue"
+          ];
+        };
       };
     };
   };
