@@ -2,6 +2,7 @@
 {
   colorschemes = {
     gruvbox.enable = true;
+    everforest.enable = true;
     vscode.enable = true;
     catppuccin.enable = true;
     nightfox.enable = true;
@@ -10,7 +11,7 @@
     rose-pine.enable = true;
   };
 
-  colorscheme = "ayu";
+  colorscheme = "gruvbox";
 
   opts = {
     # Line numbers
