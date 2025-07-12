@@ -1,7 +1,0 @@
-{
-  plugins = {
-    obsidian = {
-      enable = true;
-    };
-  };
-}
