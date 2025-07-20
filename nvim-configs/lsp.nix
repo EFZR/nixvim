@@ -43,7 +43,7 @@
         lua_ls.enable = true;
         marksman.enable = true;
         pyright.enable = true;
-        sqls.enable = true;
+        # sqls.enable = true;
         tailwindcss.enable = true;
         ts_ls.enable = !config.plugins.typescript-tools.enable;
         volar.enable = !config.plugins.typescript-tools.enable;
