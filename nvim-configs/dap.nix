@@ -6,14 +6,14 @@ let
       name = "launch - netcoredbg";
       request = "launch";
       program.__raw = ''
-        function()
-            -- return vim.g.dotnet_select_project()
-            if vim.fn.confirm("Should I recompile first?", "&yes\n&no", 2) == 1 then
-                vim.g.dotnet_build_project()
-            end
-            
-            return vim.g.dotnet_select_project()
-        end
+                function()
+                    -- return vim.g.dotnet_select_project()
+                    -- if vim.fn.confirm("Should I recompile first?", "&yes\n&no", 2) == 1 then
+                        -- vim.g.dotnet_build_project()
+                    -- end
+                    -- return vim.g.dotnet_select_project()
+        						return vim.fn.input('Path to dll', vim.fn.getcwd() .. '/bin/Debug/', 'file')
+                end
       '';
       env = {
         ASPNETCORE_ENVIRONMENT.__raw = ''function() return "Development" end '';
